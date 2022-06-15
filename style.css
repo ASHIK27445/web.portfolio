@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color-highlight{
     color:midnightblue;
 }
@@ -20,19 +23,27 @@ h1{
 .part1-bi{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    padding-bottom: 5%;
 }
 section{
     height: 500px;
 }
 .link-button{
     text-decoration: none;
-    background-image:linear-gradient(green, red) ;
+    background-image:linear-gradient(blue, red) ;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+    padding-left: 10%;
+    text-align: center;
 }
-
+.part2{
+    background-image: url("images/2048-51.jpg");
+    background-position: 100%;
+    padding-bottom: 5%;
+}
 .part2-half{
+    color: aliceblue;
     width: 40%;
     float: left;
     margin-right: 5%;
@@ -41,4 +52,43 @@ section{
 .part2-half img{
     width: 100%;
 
+}
+h3{
+    color: royalblue;
+}
+.single-experiences{
+    width: 40%;
+    float:left;
+    margin-left: 2%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 20px saddlebrown;
+    border-radius: 5px;
+    height: 80%;
+    font-size: medium;
+
+}
+.part3{
+    background-image: url("images/background-2691002_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 3%;
+
+
+
+}
+#golden{
+    color: goldenrod;
+}
+#violet{
+    color: red;
+}
+#border-work{
+    border-left: 7px solid;
+    border-image: linear-gradient(silver, green);
+    border-image-slice: 1;
+}
+footer p{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 10px;
 }
